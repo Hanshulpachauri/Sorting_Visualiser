@@ -1,0 +1,20 @@
+.bar {
+    display: inline-block;
+    width: 15px; /* Decreased width of bars */
+    margin-right: 2px;
+    background-color: pink;
+}
+
+#container {
+    margin-top: 20px;
+    width: auto; /* Set width to auto to accommodate all bars */
+    height: 150px;
+    border: 1px solid grey;
+    padding: 5px;
+    overflow-x: auto;
+    white-space: nowrap; /* Prevents bars from wrapping */
+}
+
+h1 {
+    text-align: center;
+}
